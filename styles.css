@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+
+body {
+   background-color: #ccc0d3;
+   width: 50%;
+   margin: 20px auto;
+}
+
+.eight-ball {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 325px;
+    height: 325px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+div.answer {
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+}
+
+p#eight {
+  font-size: 5em;
+  margin: 20% auto;
+  color: white;
+}
+
+p#answer {
+  font-family: Bangers;
+  padding: 25px;
+  color: lightblue;
+  letter-spacing: 2px;
+}
+
+#content {
+  width: 600px; 
+  margin: 0 auto; 
+  margin-top: 50px;  
+  margin-bottom: 50px;
+  border: 1px solid black;       
+  text-align: center; 
+  font-family: 'Helvetica Neue', arial; 
+  font-weight: 100;
+}
+
+#header {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Bangers;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+#input {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  height: 10px;
+  text-align: center;
+}
+
+input::placeholder {
+  font-family: Bangers;
+  font-size: 1.2em;
+}
+
+#tryIt, #reset{
+  text-align: center;
+  padding-bottom: 50px;
+  display: inline-block;
+}
+
+
